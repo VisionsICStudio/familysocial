@@ -1,0 +1,265 @@
+<!-- #region
+; =======================================================
+; Title: index.html ( familysocial website - root folder )
+; Authors: Aaron Wilson
+; Instructor: Kevin Imhoff
+; Date: 21 July 2020
+; Description: HTML index file.
+; Legend: [ Aaron Wilson ] -> Team member responsible
+; for page.
+; =======================================================
+-->
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <title>familysocial website</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <meta property="og:title" content="">
+    <meta property="og:type" content="">
+    <meta property="og:url" content="">
+    <meta property="og:image" content="">
+
+    <link rel="manifest" href="/pages/site.webmanifest">
+    <link rel="apple-touch-icon" href="/icon.d1aec93e.png">
+
+     <!--Import materialize.css-->
+     <link type="text/css" rel="stylesheet" href="/materialize.min.de9bbd64.css" media="screen,projection">
+
+    <!-- Material Design for Bootstrap fonts and icons -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Public+Sans:400,700|Roboto:100,300,400,500,700|Material+Icons">
+
+    <!-- Material Design for Bootstrap CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/bootstrap-material-design@4.1.1/dist/css/bootstrap-material-design.min.css" integrity="sha384-wXznGJNEXNG1NFsbm0ugrLFMQPWswR3lds2VeinahP8N0zJw9VWSopbjv2x7WCvX" crossorigin="anonymous">
+
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+    <link rel="stylesheet" href="/normalize.47012b1c.css">
+    <link rel="stylesheet" href="/main.1f323915.css">
+
+    <meta name="theme-color" content="#fafafa">
+  </head>
+
+  <body>
+
+    <header id="desktop-header">
+      <!-- Standard White navigation -->
+      <ul id="button-bank" class="nav nav-tabs">
+        <li class="nav-item">
+          <a id="logo" class="nav-link" href="#"></a>
+        </li>
+        <li class="nav-item">
+          <a id="home-nav-button" class="nav-link" href="/index.html">HOME</a>
+        </li>
+        <li class="nav-item">
+          <a id="about-nav-button" class="nav-link" href="/pages/about.html">ABOUT</a>
+        </li>
+        <li class="nav-item">
+          <a id="app-nav-button" class="nav-link" href="/pages/app.html">THE APP</a>
+        </li>
+        <li class="nav-item">
+          <a id="contact-nav-button" class="nav-link" href="/pages/contact.html">CONTACT</a>
+        </li>
+        <li class="nav-item">
+          <a id="register-nav-button" class="nav-link active" href="/pages/register.html">REGISTER</a>
+        </li>
+      </ul>
+    </header>
+
+    <!-- Add your site or application content here -->
+    <div id="pgContent">
+
+      <div class="container">
+
+        <form id="register-form">
+
+          <div class="row">
+
+            <div class="col-sm" id="col-one">
+
+              <div class="form-group">
+                <label for="fnLbl">FIRST NAME:</label>
+                <input type="text" class="form-control" id="rd-fn" aria-describedby="fnHlp">
+                <small id="fnHlp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+              </div>
+
+              <div class="form-group">
+                <label for="lnLbl">LAST NAME:</label>
+                <input type="text" class="form-control" id="rd-ln" aria-describedby="lnHlp">
+                <small id="lnHlp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+              </div>
+
+              <div class="form-group">
+                <label for="adLbl">STREET ADDRESS:</label>
+                <input type="text" class="form-control" id="rd-ad" aria-describedby="adHlp">
+                <small id="adHlp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+              </div>
+
+              <div class="form-group">
+                <label for="apLbl">APT / SUITE / PO BOX:</label>
+                <input type="text" class="form-control" id="rd-ap" aria-describedby="apHlp">
+                <small id="apHlp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+              </div>
+            </div>
+
+            <div class="col-sm" id="col-two">
+
+              <div class="form-group">
+                <label for="cyLbl">CITY:</label>
+                <input type="text" class="form-control" id="rd-cy" aria-describedby="cyHlp">
+                <small id="cyHlp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+              </div>
+
+              <div class="form-group">
+                <label for="stLbl">STATE:</label>
+                <input type="text" class="form-control" id="rd-st" aria-describedby="stHlp">
+                <small id="stHlp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+              </div>
+
+              <div class="form-group">
+                <label for="zpLbl">ZIP CODE:</label>
+                <input type="text" class="form-control" id="rd-zp" aria-describedby="zpHlp">
+                <small id="zpHlp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+              </div>
+
+              <div class="form-group">
+                <label for="emLbl">EMAIL:</label>
+                <input type="email" class="form-control" id="rd-em" aria-describedby="emHlp">
+                <small id="emHlp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+              </div>
+            </div>
+
+            <div class="col-sm" id="col-three">
+
+              <div class="form-group">
+                <label for="unLbl">USERNAME:</label>
+                <input type="text" class="form-control" id="rd-un" aria-describedby="pwHlp">
+                <small id="unHlp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+              </div>
+
+              <div class="form-group">
+                <label for="pwLbl">PASSWORD:</label>
+                <input type="password" class="form-control" id="rd-pw" aria-describedby="pwHlp">
+                <small id="pwHlp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+              </div>
+
+              <div class="form-group">
+                <label for="amLbl">ARE YOU A FAMILY ADMIN (Answer, yes or no):</label>
+                <input type="text" class="form-control" id="rd-am" aria-describedby="amHlp">
+                <small id="amHlp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+              </div>
+
+              <div class="form-group">
+                <label for="jnLbl">TRACK NEWLY JOINED FAMILY MEMBERS (Answer, yes or no):</label>
+                <input type="text" class="form-control" id="rd-jn" aria-describedby="jnHlp">
+                <small id="jnHlp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+              </div>
+
+              <div class="form-group" id="connect-buttons">
+
+                <button type="button" class="btn btn-raised btn-info" data-toggle="modal" data-target="#undoModal">undo</button>
+                <button type="button" onclick="setRegisterData(rFn, rLn, rAd, rAp, rCy, rSt, rZp, rEm, rUn, rPw, rAm, rJn);" class="btn btn-raised btn-info" id="submit-rf">submit</button>
+              </div>
+            </div>
+          </div>
+        </form>
+      </div>
+
+      <!-- Undo Form Modal ---------------------------------------------------------------------------------------------------------------------->
+
+      <div class="modal fade" id="undoModal" tabindex="-1" role="dialog" aria-labelledby="undoModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="undoModalLabel">UNDO THIS ENTIRE FORM?</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-dismiss="modal">CANCEL</button>
+              <button type="button" onclick="undoForm(regData, pgRegister);" class="btn btn-primary">UNDO FORM</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Separation between mobile and desktop ---------------------------------------------------->
+
+      <div id="reg-one-mobile">
+
+        <form id="conForm" action="">
+
+          <h1>Register Information:</h1>
+
+          <!-- One "tab" for each step in the form: -->
+          <div class="tab">Name & Address:
+            <p><input placeholder="First name..." id="rm-fn" oninput="this.className = ''"></p>
+            <p><input placeholder="Last name..." id="rm-ln" oninput="this.className = ''"></p>
+            <p><input placeholder="Street Address..." id="rm-ad" oninput="this.className = ''"></p>
+            <p><input placeholder="Apt \ Suite \ PO Box..." id="rm-ap" oninput="this.className = ''"></p>
+          </div>
+
+          <div class="tab">Address Info (continued):
+            <p><input type="text" placeholder="City..." id="rm-cy" oninput="this.className = ''"></p>
+            <p><input type="text" placeholder="State..." id="rm-st" oninput="this.className = ''"></p>
+            <p><input type="text" placeholder="Zip Code..." id="rm-zp" oninput="this.className = ''"></p>
+            <p><input type="email" placeholder="Email..." id="rm-em" oninput="this.className = ''"></p>
+          </div>
+
+          <div class="tab">Additional Info:
+            <p><input type="text" placeholder="Username..." id="rm-un" oninput="this.className = ''"></p>
+            <p><input type="password" placeholder="Password..." id="rm-pw" oninput="this.className = ''"></p>
+            <p><input type="text" placeholder="Family Admin (yes or no)..." id="rm-am" oninput="this.className = ''"></p>
+            <p><input type="text" placeholder="Notify if Family joins (yes or no)..." id="rm-jn" oninput="this.className = ''"></p>
+          </div>
+
+          <div style="overflow:auto;">
+            <div style="float:right;">
+              <button type="button" id="prevBtn" onclick="nextPrev(-1)">Previous</button>
+              <button type="button" id="nextBtn" onclick="nextPrev(1)">Next</button>
+            </div>
+          </div>
+
+          <!-- Circles which indicates the steps of the form: -->
+          <div style="text-align:center;margin-top:40px;">
+              <span class="step"></span>
+              <span class="step"></span>
+              <span class="step"></span>
+          </div>
+        </form>
+
+      </div>
+    </div>
+
+    <footer>
+
+    </footer>
+
+      <!-- Optional JavaScript -->
+
+      <script src="/modernizr-3.11.2.min.8aced3b1.js"></script>
+      <script src="/plugins.db529e76.js"></script>
+
+      <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+      <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+      <script src="https://unpkg.com/popper.js@1.12.6/dist/umd/popper.js" integrity="sha384-fA23ZRQ3G/J53mElWqVJEGJzU0sTs+SvzG8fXVWP+kJQ1lwFAOkcUOysnlKJC33U" crossorigin="anonymous"></script>
+      <script src="https://unpkg.com/bootstrap-material-design@4.1.1/dist/js/bootstrap-material-design.js" integrity="sha384-CauSuKpEqAFajSpkdjv3z9t8E7RlpJ1UP0lKM/+NdtSarroVKu069AlsRPKkFBz9" crossorigin="anonymous"></script>
+
+      <!-- Compiled and minified JavaScript -->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+      <script src="/main.cfa47c14.js"></script>
+      <script src="/contact.e7380c68.js"></script>
+      <script src="/register.61aa3d57.js"></script>
+      <script src="https://www.google-analytics.com/analytics.js" async=""></script>
+
+    </body>
+  </html>

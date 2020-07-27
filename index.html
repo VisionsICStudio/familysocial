@@ -1,0 +1,103 @@
+<!-- #region
+; =======================================================
+; Title: index.html ( familysocial website - root folder )
+; Authors: Aaron Wilson
+; Instructor: Kevin Imhoff
+; Date: 21 July 2020
+; Description: HTML index file.
+; Legend: [ Aaron Wilson ] -> Team member responsible
+; for page.
+; =======================================================
+-->
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <title>familysocial website</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+     <!--Import materialize.css-->
+     <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+
+    <!-- Material Design for Bootstrap fonts and icons -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Public+Sans:400,700|Roboto:100,300,400,500,700|Material+Icons">
+
+    <!-- Material Design for Bootstrap CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/bootstrap-material-design@4.1.1/dist/css/bootstrap-material-design.min.css" integrity="sha384-wXznGJNEXNG1NFsbm0ugrLFMQPWswR3lds2VeinahP8N0zJw9VWSopbjv2x7WCvX" crossorigin="anonymous">
+
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+    <link rel="stylesheet" href="css/main.css">
+
+    <meta name="theme-color" content="#fafafa">
+  </head>
+  <body>
+
+    <header id="desktop-header">
+      <!-- Standard White navigation -->
+      <ul id="button-bank" class="nav nav-tabs">
+        <li class="nav-item">
+          <a id="logo" class="nav-link" href="#" ></a>
+        </li>
+        <li class="nav-item">
+          <a id="home-nav-button" class="nav-link active" href="index.html">HOME</a>
+        </li>
+        <li class="nav-item">
+          <a id="about-nav-button" class="nav-link" href="pages/about.html">ABOUT</a>
+        </li>
+        <li class="nav-item">
+          <a id="app-nav-button" class="nav-link" href="pages/app.html">THE APP</a>
+        </li>
+        <li class="nav-item">
+          <a id="contact-nav-button" class="nav-link" href="pages/contact.html" >CONTACT</a>
+        </li>
+        <li class="nav-item">
+          <a id="register-nav-button" class="nav-link" href="register.html" >REGISTER</a>
+        </li>
+      </ul>
+    </header>
+
+    <!-- Add your site or application content here -->
+    <div id="pgContent">
+
+      <div class="container">
+
+        <img id="img" src="img/img_one.webp" >
+
+        <div id="bullets">
+          <a href="#" onclick="changeImg(imgOne);" id="bullet_one"></a>
+          <a href="#" onclick="changeImg(imgTwo);" id="bullet_two"></a>
+          <a href="#" onclick="changeImg(imgThree);" id="bullet_three"></a>
+        </div>
+      </div>
+    </div>
+
+    <footer>
+
+    </footer>
+
+    <!-- Optional JavaScript -->
+
+    <script src="js/vendor/modernizr-3.11.2.min.js"></script>
+    <script src="js/plugins.js"></script>
+
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/popper.js@1.12.6/dist/umd/popper.js" integrity="sha384-fA23ZRQ3G/J53mElWqVJEGJzU0sTs+SvzG8fXVWP+kJQ1lwFAOkcUOysnlKJC33U" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/bootstrap-material-design@4.1.1/dist/js/bootstrap-material-design.js" integrity="sha384-CauSuKpEqAFajSpkdjv3z9t8E7RlpJ1UP0lKM/+NdtSarroVKu069AlsRPKkFBz9" crossorigin="anonymous"></script>
+
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+    <script>$(document).ready(function() { $('body').bootstrapMaterialDesign(); });</script>
+
+    <script src="js/main.js"></script>
+    <script src="js/contact.js"></script>
+    <script src="js/register.js"></script>
+
+  </body>
+</html>
